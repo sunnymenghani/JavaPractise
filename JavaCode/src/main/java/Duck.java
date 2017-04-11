@@ -8,6 +8,10 @@ public class Duck {
         System.out.println("Contructor of Duck Class");
     }
 
+    public Duck(int size){
+        System.out.println("Provide the Size");
+    }
+
     public void setSize(int newSize){
         size = newSize;
     }
