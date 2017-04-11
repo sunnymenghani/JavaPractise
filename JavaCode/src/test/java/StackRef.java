@@ -20,6 +20,6 @@ public class StackRef {
     public static void go(){
         Duck duck1 = new Duck();
         System.out.println(duck1 = null);
-        
+
     }
 }

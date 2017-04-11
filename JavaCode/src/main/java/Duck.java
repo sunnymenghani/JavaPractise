@@ -3,6 +3,12 @@
  */
 public class Duck {
     int size;
+    private static int duckSize;
+
+    public static void main(String[] args) {
+        duckSize = 10;
+        System.out.println("The size of the duck is "+ duckSize);
+    }
 
     public Duck(){
         System.out.println("Contructor of Duck Class");
