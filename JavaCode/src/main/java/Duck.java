@@ -6,6 +6,7 @@ public class Duck {
     private static int duckSize;
 
     public static void main(String[] args) {
+        mathRandomRun();
         duckSize = 10;
         System.out.println("The size of the duck is "+ duckSize);
     }
@@ -25,5 +26,11 @@ public class Duck {
     public int getSize(){
         System.out.println("Size is "+size);
         return size;
+    }
+
+    public static void mathRandomRun(){
+        double r1 = Math.random();
+        int r2 = (int) (Math.random()*9);
+        System.out.println(r2);
     }
 }
