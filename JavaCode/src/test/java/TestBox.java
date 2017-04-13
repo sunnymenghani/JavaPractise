@@ -23,7 +23,9 @@ public class TestBox {
         System.out.println("value of doubleString is "+doubleString);
         String s = String.format("%,d",100000);
         System.out.println(s);
-        
+
     }
+
+
 
 }
